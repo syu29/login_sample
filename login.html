@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>ログインサイト</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+<body>
+    <div class="login-form">
+        <h1>ログイン</h1>
+        <form action="session1.php" method = "post">
+            <div class="id">
+                ユーザーネーム<input type ="text" name="username" value = "">
+            </div>
+            <div class="pw">
+                パスワード<input type = "text" name="pass" value = "">
+            </div>
+            <input type="submit" name ="login" value = "ログイン">
+        </form>
+        <p>または</p>
+        <a href="#" class="btn google">
+            <span class="fab fa-google"></span>
+            Googleで登録
+        </a>
+    </div>
+</body>
+</html>
